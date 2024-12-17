@@ -1,0 +1,56 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# FastAPI-specific
+*.sqlite3
+*.db
+*.log
+*.pid
+
+# Environment variables and configurations
+.env
+.env.*
+*.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+.venv/
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest cache
+.cache/
+
+# mypy, pyre type checker
+.mypy_cache/
+.pyre/
+
+# coverage reports
+coverage.xml
+*.cover
+*.py,cover
+
+# Docker
+*.docker
+docker-compose.override.yml
+
+# Secrets and credentials
+*.pem
+*.key
+*.crt
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
